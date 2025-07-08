@@ -7,8 +7,8 @@ import './index.css';
 const config = {
   signInRedirectURL: import.meta.env.VITE_APP_SIGN_IN_REDIRECT_URL,
   signOutRedirectURL: import.meta.env.VITE_APP_SIGN_OUT_REDIRECT_URL,
-  clientID: import.meta.env.VITE_ASGARDEO_CLIENT_ID,
-  baseUrl: import.meta.env.VITE_ASGARDEO_BASE_URL,
+  clientID: import.meta.env.REACT_APP_ASGARDEO_CLIENT_ID,
+  baseUrl: import.meta.env.REACT_APP_ASGARDEO_BASE_URL,
 
   ResponseMode: "form_post",
   enableOIDCSessionManagement: true,
